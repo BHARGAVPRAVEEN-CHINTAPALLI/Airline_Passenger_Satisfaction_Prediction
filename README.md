@@ -73,7 +73,7 @@ Airline_Passenger_Satisfaction_Prediction/   ← GitHub repo root
 ├── 📁 Notebooks/                            # Jupyter notebooks
 │   └── airline_passenger_satisfaction.ipynb # Full EDA → modelling notebook
 │
-├── 📁 Python_Scripts/                       # Python scripts
+├── 📁 src/                       # Python scripts
 │   └── ml_orchestration.py                  # Prefect workflow orchestration
 |   └── airline_pipeline_hpt.py              # MLflow using optuna workflow 
 │
@@ -86,7 +86,8 @@ Airline_Passenger_Satisfaction_Prediction/   ← GitHub repo root
 ├── 📁 models/                               # Saved model artifacts
 │   └── gradient_boosting_model.pkl          # Final trained GradientBoosting pipeline
 │
-├── app.py                                   # Streamlit deployment app
+├── 📁 app/                               # Streamlit cloud Deployment
+│   └── app.py                             # Python Code for Cloud Deployment
 └── requirements.txt                         # Python dependencies
 ```
 
